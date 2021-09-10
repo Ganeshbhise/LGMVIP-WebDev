@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(40deg,skyblue,navy);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* overflow: hidden;
+    position: fixed;
+    top: 0; */
+}
+.title{
+    width: 50%;
+    height: 100px;
+
+}
+
+.title h1{
+    line-height: 100px;
+    padding-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.menu{
+    width: 50%;
+    height: 100px;
+}
+.menu ul{
+    width: 100px;
+    height: 100px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    border-radius: 4px;
+    
+    
+}
+
+.menu ul li a{
+    
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    padding:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu ul li :hover{
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    border-bottom:none;
+ 
+    
+}
+.form{
+    display: flex;
+    position: absolute;
+    left: 1220px;
+    
+}
+.btn{
+    padding: 4px;
+    border-radius: 10px;
+    padding:10px;
+    border: 2px solid black;
+    margin-left: 6px;
+}
+.btn:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.Search{
+    border-radius:10px;
+    padding: 6px 24px;
+    border: 2px solid black;
+    
+}
+section{
+    display: flex;
+}
+.left{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 120px; 
+    margin-left: 50px; 
+}
+.left img{
+    width: 500px;
+    height: 400px;
+
+}
+.right{
+   
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 45px;
+    padding:40px;
+}
+.right h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right p{
+    font-size: 1.1rem;
+    padding:30px 0;
+}
+
+.right button{
+    font-size:18px;
+    font-weight: bold;
+    background-image: linear-gradient(40deg,navy,skyblue);
+    color: white;
+    border-radius: 6px;
+    padding: 20px 35px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.right a:hover{
+    color: black;
+}
+.right button:hover{
+    color: black;
+    background-image: linear-gradient(40deg,blue,navy);
+
+}
+section#about{
+    height: 100vh;
+    background-image: linear-gradient(40deg,white,wheat);
+    
+}
+section#about h1{
+    flex-direction: row;
+   margin-left :45%;
+   height: 40px;
+   border:2px solid white;
+   padding: 0 10px;
+}
+section#about h1:hover{
+background-color: skyblue;
+border-radius: 6px;
+cursor: pointer;
+
+}
+.leftside{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.leftside button{
+    background-color:white;
+    padding: 16px 20px;
+    border-radius:20px;
+    margin: 0 40px;
+    margin-top: -100px;
+}
+.leftside button a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.leftside button:hover{
+    background-color:skyblue;
+    
+}
+.leftside img{
+    height: 460px;
+    width: 630px;
+
+}
+.leftside p{
+    padding: 20px 0;
+    padding-bottom: 40px;
+    font-size: 40px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-duration: 1s;
+}
+h2{
+    text-align: center;
+    margin: 12px 0px;
+    border: 2px solid green;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding:4px;
+
+}
+.container{
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: center / cover no-repeat url("./img/bgc2.jpg");
+    padding:0 551px
+    
+}
+.MyForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.Myinput{
+    width: 400px;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+.btnform{
+    padding: 12px 16px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color:green;
+}
+.btnform:hover{
+    background-color:greenyellow;
+    color: black;
+}
+
+.sbtn{
+
+    margin-top: 10px;
+    padding: 10px;
+    background-color:rgb(8, 231, 8);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+ 
+}
+.sbtn a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.sbtn:hover{
+    background-color:rgb(24, 122, 4);
+}
+.fbtn{
+    margin-top: 10px;
+    margin-bottom:-40px;
+    padding: 10px;
+    background-color:orange;
+    border: 2px solid black;
+    border-radius: 8px ;
+    color: black;
+}
+.fbtn a{
+    color: black;
+    font-size: 16px;
+}
+.fbtn:hover{
+    background-color: orangered;
+}
+
+.leftside h1{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.rightside{
+ 
+    width: 50%;
+}
+.rightside img{
+    height: 600px;
+    width: 630px;
+    margin-top:60px;
+    margin-left: 30px;
+}
+
+.contactpage{
+    height: 90vh;
+    background-image: linear-gradient(80deg,skyblue,greenyellow);
+    text-align: center;
+}
+
+.contactpage p{
+    font-size: 25px;
+    font-weight: bold;
+    padding:2px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.contactpage img{
+    margin-bottom: -38px;
+}
+#spnt{
+    height: 10vh;
+    text-align: center;
+    background-color:rgb(151, 126, 80);
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#sponsorssec{
+    height: 35vh;
+    
+    background-color:rgb(151,126,80);
+   
+}
+img{
+    padding: 0 10px;
+}
+.cimg{
+    margin-bottom: 40px;
+    padding-bottom: 100px;
+}
+.cimg img{
+    height: 160px;
+    width: 260px;
+    
+
+}
+
+section#member{
+    height: 100vh;
+    
+}
+
+section#footer{
+    height: 30px;
+    background-color:black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

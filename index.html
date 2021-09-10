@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsBuddy</title>
+
+    <!-- External css link -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal javascript -->
+
+    <script>
+        function myfunction() {   
+        alert("YOur Response Submitted Successfully"); 
+     } 
+
+        function myfunction1() {   
+        let a=prompt("Rate Our Channel Out Of Five Star (*)"); 
+        if(a.length===0){
+            prompt("Enter Valid Feedback")
+            alert("Thanks For Your Feedback!!")
+        }
+        else{
+            alert("Thanks For Your Feedback")
+            
+        }
+        
+     } 
+       
+
+    </script>
+
+</head>
+
+<body>
+    <header id="home" class="header">
+        <nav>
+            <div class="title">
+                <h1>NewsBuddy</h1>
+            </div>
+           
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#sponsorssec">SPONSORS</a></li>
+                    <form class="form">
+                        <input class="Search form-control me-2" type="search" placeholder="&#128269; Search here"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="left">
+                <img src="./img/task1.png" alt="loading">
+            </div>
+            <div class="right">
+                <h1>“News told, rumors heard, truth implied, facts buried.”</h1>
+                <p>Fake news is cheap to produce. Genuine journalism is expensive</p>
+                <button><a href="#member">Get Membership</a></button>
+            </div>
+        </section>
+    </header>
+    <section id="about">
+        <div class="leftside">
+            <img src="./img/task1aa.jpg" alt="loading">
+            <h2>"ABOVE EVERY NEWS CHANNEL"</h2>
+            <p>MUST VISIT</p>
+            <button><a href="https://zeenews.com">visit our channel</a></button>
+            <button><a href="#contact">Give
+                    Feedback</a></a></button>
+                    
+                    
+        </div>
+        <div class="rightside">
+            <img src="./img/task1a.png" alt="loading">
+
+        </div>
+
+    </section>
+    <section id="member">
+        <div class="container">
+            <h2>&#129309 GET MEMBERSHIP &#129309</h2>
+            <form class="MyForm" >
+                <input class="Myinput" type="text" name="name"placeholder="Enter your name:" />
+
+                <input class="Myinput" type="phone" name="phone"placeholder="&#128222; Enter your phone number: " />
+                
+                <input class="Myinput" type="email" name="email"placeholder="&#9993; Enter your email:  " />
+                
+                <input class="Myinput" type="address" name="address"placeholder="Enter your address:" />
+                
+                <input class="Myinput" type="desc" name="desc"placeholder="Enter your Description:" />
+
+                <button class="sbtn" onClick = "myfunction()" value="Display"><a href="#member">submit</a></button>
+                
+               </form>
+        </div>
+    </section>
+
+
+    <div class="contactpage" id="contact">
+        <h1>CONTACT US | FEEDBACK</h1>
+        <img src="./img/contact.png" alt="loading">
+        <p>&#128222; TELEPHONE : +9197676266340 </p>
+        <p>&#9993; EMAIL : newsbuddy1111@gmail.com</p>
+        <p>VISIT US ON OUR SOCIAL MEDIA SITES </p>
+        <button class="fbtn" onClick = "myfunction1()" value="Display"><a href="#contact">Feedback</a></button>
+       
+        <div  class="cimg">
+
+            <img src="./img/social.png" alt="loading"> 
+        </div>
+    
+
+    </div>
+
+    <div id="spnt">
+        <h4>OUR SPONSORS</h4>
+    </div>
+
+    <section id="sponsorssec">
+        <img src="./img/logo1.png" alt="loading">
+        <img src="./img/logo2.png" alt="loading">
+        <img src="./img/logo3.png" alt="loading">
+        <img src="./img/logo4.png" alt="loading">
+        <img src="./img/logo5.png" alt="loading">
+    </section>
+
+
+    <section id="footer">
+        <p>Copyright &copy NewsBuddy | GaneshBhise | 2021</p>
+    </section>
+
+</body>
+
+</html>
